@@ -10,7 +10,7 @@ int ans(int i,int j,vector< vector<int> >& dp,vector<int> &arr)
     {
         return arr[i];
     }
-    if(i==j+1)
+    if(i==j-1)
     {
         return max(arr[i],arr[i+1]);
     }
